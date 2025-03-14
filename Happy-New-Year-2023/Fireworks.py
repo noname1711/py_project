@@ -18,7 +18,7 @@ NUM_FIREWORKS_MIN = 1 # Số lượng pháo nhỏ nhất bắn lên
 SPEED_FLY_UP_MAX = 12 # Tốc độ lớn nhất của viên đạn bay lên (trước khi nổ)
 SPEED_FLY_UP_MIN = 8 # Tốc độ nhỏ nhất của viên đạn bay lên (trước khi nổ)
 
-BANNER = pygame.image.load('./hpnw.png')
+BANNER = pygame.image.load('C:\\Users\\Test\\OneDrive\\Máy tính\\code learning basic\\python\\Happy-New-Year-2023\\hpnw.png')
 BANNER = pygame.transform.scale(BANNER, (WINDOWWIDTH, 150))
 BLACK = (  0,   0,   0)
 WHITE = (255, 255, 255)
@@ -76,7 +76,7 @@ class Bullet(): # Viên đạn sau khi nổ
 		self.angle = angle # Góc hợp bởi viên đạn và phương ngang
 		self.size = SIZE
 		self.color = color
-		self.fire_sound = pygame.mixer.Sound('fw_04.mp3')
+		self.fire_sound = pygame.mixer.Sound('C:\\Users\\Test\\OneDrive\\Máy tính\\code learning basic\\python\\Happy-New-Year-2023\\fw_04.mp3')
 		self.fire_sound.set_volume(0.2)
 	def update(self):
 		# Xác định tốc độ theo 2 phương
